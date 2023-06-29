@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Button from "../componets/Button";
+import Button from "../components/Button";
 
 export default function CalculatorWidget() {
   const [display, setDisplay] = useState("0");
